@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6954784E1DED532100FFBA92 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954784D1DED532100FFBA92 /* LoginView.m */; };
 		699153A51DF93EA50071E257 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699153A31DF93EA50071E257 /* TestViewController.m */; };
+		699153AA1DF941510071E257 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699153A81DF941510071E257 /* MyViewController.m */; };
 		69943B7B1DF8EEF7001A278F /* ReadDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69943B7A1DF8EEF7001A278F /* ReadDocumentViewController.m */; };
 		69943B7D1DF8EF3C001A278F /* haha.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 69943B7C1DF8EF3C001A278F /* haha.pdf */; };
 		69AB6CC31DED1C2D00C73989 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AB6CC21DED1C2D00C73989 /* main.m */; };
@@ -46,6 +47,8 @@
 		6954784D1DED532100FFBA92 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		699153A21DF93EA50071E257 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		699153A31DF93EA50071E257 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		699153A71DF941510071E257 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		699153A81DF941510071E257 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		69943B791DF8EEF7001A278F /* ReadDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadDocumentViewController.h; sourceTree = "<group>"; };
 		69943B7A1DF8EEF7001A278F /* ReadDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadDocumentViewController.m; sourceTree = "<group>"; };
 		69943B7C1DF8EF3C001A278F /* haha.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = haha.pdf; sourceTree = "<group>"; };
@@ -179,6 +182,8 @@
 				69F6BF6F1DED457300E29E7B /* LoginViewController.m */,
 				699153A21DF93EA50071E257 /* TestViewController.h */,
 				699153A31DF93EA50071E257 /* TestViewController.m */,
+				699153A71DF941510071E257 /* MyViewController.h */,
+				699153A81DF941510071E257 /* MyViewController.m */,
 				69943B7C1DF8EF3C001A278F /* haha.pdf */,
 				69943B791DF8EEF7001A278F /* ReadDocumentViewController.h */,
 				69943B7A1DF8EEF7001A278F /* ReadDocumentViewController.m */,
@@ -423,6 +428,7 @@
 				69AB6CC31DED1C2D00C73989 /* main.m in Sources */,
 				6954784E1DED532100FFBA92 /* LoginView.m in Sources */,
 				69F6BF741DED457300E29E7B /* LoginViewController.m in Sources */,
+				699153AA1DF941510071E257 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
