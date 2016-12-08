@@ -1,0 +1,19 @@
+platform :ios, ‘8.0’
+
+target 'jtmtsafety' do
+pod 'AFNetworking', '~> 3.1.0'
+pod 'Masonry', '~> 1.0.2'
+pod 'FMDB', '~> 2.6.2'
+pod 'SVProgressHUD', '~> 2.0.3'
+pod 'DZNEmptyDataSet', '~> 1.8.1'
+pod 'MWPhotoBrowser’,’2.1.2’
+pod 'SDWebImage'
+pod 'MJExtension'
+pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
+pod 'WYPopoverController', '~> 0.3.9'
+pod 'TZImagePickerController', '~> 1.7.1'
+pod 'Material', '~> 2.2.1'
+pod 'MBCircularProgressBar', '~> 0.3.4'
+
+use_frameworks!
+end
