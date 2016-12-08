@@ -34,10 +34,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="2"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYs-1N-Qzn">
+                                <rect key="frame" x="143" y="152" width="88" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="iB9-Ju-yzT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="200" id="ChH-cU-J00"/>
+                            <constraint firstItem="iB9-Ju-yzT" firstAttribute="top" secondItem="WYs-1N-Qzn" secondAttribute="bottom" constant="20" id="Oav-7f-Bdz"/>
+                            <constraint firstItem="WYs-1N-Qzn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c25-pM-7yw"/>
                             <constraint firstItem="XYh-M2-i26" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jx8-jb-fXm"/>
                             <constraint firstItem="iB9-Ju-yzT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pRG-9s-W8a"/>
                             <constraint firstItem="XYh-M2-i26" firstAttribute="top" secondItem="iB9-Ju-yzT" secondAttribute="bottom" constant="69" id="suA-4f-MIR"/>
@@ -79,7 +86,7 @@
         <scene sceneID="2qf-T6-T0I">
             <objects>
                 <navigationController id="FjM-JW-7no" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="bO2-dp-Lqu">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bO2-dp-Lqu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
